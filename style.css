@@ -1,0 +1,47 @@
+table, th, td {
+    border: 1px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+h1{
+    font-weight: 200;
+    font-family: 'Trebuchet MS';
+}
+
+h2{
+    font-weight: 200;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    color: green;
+    margin-top: 25px;
+}
+
+hr.solid {
+    border-top: 2px solid black;
+    float: left; 
+    width: 55%;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    margin-top: -3px;
+}
+
+h3{
+    font-weight: 180;
+    font-size: 16px;
+    color: rgb(20, 131, 228);
+    font-family: 'Trebuchet MS';
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+li{
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    margin-top: -4px;
+    padding: 2px;
+}
