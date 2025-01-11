@@ -1,47 +1,92 @@
-table, th, td {
-    border: 1px solid black;
-    padding: 20px;
-    border-collapse: collapse;
-    width: 80%;
-}
-
-h1{
-    font-weight: 200;
-    font-family: 'Trebuchet MS';
-}
-
-h2{
-    font-weight: 200;
-    font-size: 15px;
-    font-family: 'Trebuchet MS';
-    color: green;
-    margin-top: 25px;
-}
-
-hr.solid {
-    border-top: 2px solid black;
-    float: left; 
-    width: 55%;
-}
-
-p{
-    font-size: 15px;
-    font-family: 'Trebuchet MS';
-    margin-top: -3px;
-}
-
-h3{
-    font-weight: 180;
-    font-size: 16px;
-    color: rgb(20, 131, 228);
-    font-family: 'Trebuchet MS';
-    margin-top: -5px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .logo {
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-left: 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .column {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .column h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .column ul {
+    list-style: none;
+  }
+  
+  .column ul li {
     margin-bottom: 5px;
-}
-
-li{
-    font-size: 15px;
-    font-family: 'Trebuchet MS';
-    margin-top: -4px;
-    padding: 2px;
-}
+  }
+  
+  .reviews {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .reviews .review {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .reviews .review p {
+    font-style: italic;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
